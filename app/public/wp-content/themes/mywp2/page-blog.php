@@ -35,6 +35,7 @@ get_header(); // Esto incluye el encabezado del tema
         // Verificar si hay posts
         if ($the_query->have_posts()) :
             echo '<div class="row">'; // Contenedor para las tarjetas (cards)
+            
 
             // Loop a través de los posts
             while ($the_query->have_posts()) : $the_query->the_post();
@@ -53,9 +54,10 @@ get_header(); // Esto incluye el encabezado del tema
                         </div>
                     </div>
                 </div>
+                
 
                 <!-- Modal con contenido completo del post -->
-                <div class="modal fade" id="modal-<?php the_ID(); ?>" tabindex="-1" aria-labelledby="modalLabel-<?php the_ID(); ?>" aria-hidden="true">
+                <div class="modal fade" style="margin-top:200px" id="modal-<?php the_ID(); ?>" tabindex="-1" aria-labelledby="modalLabel-<?php the_ID(); ?>" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">

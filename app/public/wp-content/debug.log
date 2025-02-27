@@ -547,3 +547,12 @@ Stack trace:
 [27-Feb-2025 09:49:46 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
 [27-Feb-2025 09:49:47 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
 [27-Feb-2025 09:49:47 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[27-Feb-2025 09:54:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[27-Feb-2025 09:58:52 UTC] PHP Warning:  Undefined variable $post_counter in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp2/page-blog.php on line 38
+[27-Feb-2025 09:58:52 UTC] PHP Warning:  Undefined variable $post_counter in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp2/page-blog.php on line 38
+[27-Feb-2025 09:58:53 UTC] PHP Warning:  Undefined variable $post_counter in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp2/page-blog.php on line 38
+[27-Feb-2025 09:58:53 UTC] PHP Warning:  Undefined variable $post_counter in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp2/page-blog.php on line 38
+[27-Feb-2025 09:58:56 UTC] PHP Warning:  Undefined variable $post_counter in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp2/page-blog.php on line 38
+[27-Feb-2025 09:58:56 UTC] PHP Warning:  Undefined variable $post_counter in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp2/page-blog.php on line 38
+[27-Feb-2025 09:59:03 UTC] PHP Warning:  Undefined variable $post_counter in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp2/page-blog.php on line 38
+[27-Feb-2025 09:59:03 UTC] PHP Warning:  Undefined variable $post_counter in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp2/page-blog.php on line 38
