@@ -1,0 +1,549 @@
+[23-Jan-2025 09:29:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[23-Jan-2025 09:29:13 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[23-Jan-2025 09:29:13 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[27-Jan-2025 09:25:04 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[27-Jan-2025 09:26:48 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[27-Jan-2025 09:26:48 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[27-Jan-2025 09:26:50 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/diurno/Local Sites/prueba1/app/public/wp-includes/functions.php on line 6114
+[27-Jan-2025 09:26:50 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/diurno/Local Sites/prueba1/app/public/wp-includes/functions.php on line 6114
+[27-Jan-2025 09:26:51 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/diurno/Local Sites/prueba1/app/public/wp-includes/functions.php on line 6114
+[27-Jan-2025 09:50:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_menus" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-settings.php(704): do_action('init')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-config.php(110): require_once('/home/diurno/Lo...')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-load.php(50): require_once('/home/diurno/Lo...')
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-admin/admin.php(34): require_once('/home/diurno/Lo...')
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-admin/themes.php(10): require_once('/home/diurno/Lo...')
+#7 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[27-Jan-2025 09:50:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_menus" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-settings.php(704): do_action('init')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-config.php(110): require_once('/home/diurno/Lo...')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-load.php(50): require_once('/home/diurno/Lo...')
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-admin/admin.php(34): require_once('/home/diurno/Lo...')
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-admin/themes.php(10): require_once('/home/diurno/Lo...')
+#7 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[27-Jan-2025 09:51:12 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_menus" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-settings.php(704): do_action('init')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-config.php(110): require_once('/home/diurno/Lo...')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-load.php(50): require_once('/home/diurno/Lo...')
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-admin/admin.php(34): require_once('/home/diurno/Lo...')
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-admin/themes.php(10): require_once('/home/diurno/Lo...')
+#7 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[27-Jan-2025 10:48:51 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[27-Jan-2025 10:48:54 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/diurno/Local Sites/prueba1/app/public/wp-includes/functions.php on line 6114
+[29-Jan-2025 11:53:35 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[29-Jan-2025 11:53:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[29-Jan-2025 11:53:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[29-Jan-2025 11:53:55 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[29-Jan-2025 11:54:01 UTC] Automatic updates starting...
+[29-Jan-2025 11:54:01 UTC] Automatic updates complete.
+[29-Jan-2025 11:58:30 UTC] PHP Notice:  Function wp_enqueue_style was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. This notice was triggered by the <code>mygooglefont</code> handle. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /home/diurno/Local Sites/prueba1/app/public/wp-includes/functions.php on line 6114
+[29-Jan-2025 11:58:30 UTC] PHP Notice:  Function wp_enqueue_style was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. This notice was triggered by the <code>style</code> handle. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /home/diurno/Local Sites/prueba1/app/public/wp-includes/functions.php on line 6114
+[29-Jan-2025 11:59:39 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#10 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#11 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:00:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:00:20 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:01:15 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_header" in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php:1
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#2 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#3 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php on line 1
+[29-Jan-2025 12:01:17 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:01:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:01:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:02:18 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:02:18 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:02:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:02:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:02:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:02:37 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:03:06 UTC] PHP Fatal error:  Cannot redeclare mitemplat_scripts_styles() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:11) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 19
+[29-Jan-2025 12:03:08 UTC] PHP Fatal error:  Cannot redeclare mitemplat_scripts_styles() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:11) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 19
+[29-Jan-2025 12:03:08 UTC] PHP Fatal error:  Cannot redeclare mitemplat_scripts_styles() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:11) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 19
+[29-Jan-2025 12:03:08 UTC] PHP Fatal error:  Cannot redeclare mitemplat_scripts_styles() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:11) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 19
+[29-Jan-2025 12:03:08 UTC] PHP Fatal error:  Cannot redeclare mitemplat_scripts_styles() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:11) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 19
+[29-Jan-2025 12:03:08 UTC] PHP Fatal error:  Cannot redeclare mitemplat_scripts_styles() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:11) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 19
+[29-Jan-2025 12:03:09 UTC] PHP Fatal error:  Cannot redeclare mitemplat_scripts_styles() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:11) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 19
+[29-Jan-2025 12:03:12 UTC] PHP Fatal error:  Cannot redeclare mitemplat_scripts_styles() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:11) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 19
+[29-Jan-2025 12:03:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[29-Jan-2025 12:03:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[29-Jan-2025 12:03:36 UTC] PHP Fatal error:  Cannot redeclare mitemplat_scripts_styles() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:11) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 19
+[29-Jan-2025 12:12:57 UTC] PHP Fatal error:  Cannot redeclare mitemplate_menus() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:3) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 32
+[29-Jan-2025 12:12:58 UTC] PHP Fatal error:  Cannot redeclare mitemplate_menus() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:3) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 32
+[29-Jan-2025 12:15:29 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 2
+[29-Jan-2025 12:15:31 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 2
+[29-Jan-2025 12:15:32 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 2
+[29-Jan-2025 12:15:33 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 2
+[29-Jan-2025 12:26:50 UTC] PHP Fatal error:  Cannot redeclare mitemplat_scripts_styles() (previously declared in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php:11) in /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/functions.php on line 19
+[29-Jan-2025 12:26:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:26:58 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:27:02 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:28:02 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:28:02 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:28:02 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:28:03 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:28:03 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:28:03 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:28:03 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mitemplate_script_stayls" not found or invalid function name in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/diurno/Local Sites/prueba1/app/public/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/diurno/Local Sites/prueba1/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/header.php(2): wp_head()
+#8 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(810): require_once('/home/diurno/Lo...')
+#9 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template.php(745): load_template('/home/diurno/Lo...', true, Array)
+#10 /home/diurno/Local Sites/prueba1/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/diurno/Local Sites/prueba1/app/public/wp-content/themes/mywp1/page.php(1): get_header()
+#12 /home/diurno/Local Sites/prueba1/app/public/wp-includes/template-loader.php(106): include('/home/diurno/Lo...')
+#13 /home/diurno/Local Sites/prueba1/app/public/wp-blog-header.php(19): require_once('/home/diurno/Lo...')
+#14 /home/diurno/Local Sites/prueba1/app/public/index.php(17): require('/home/diurno/Lo...')
+#15 {main}
+  thrown in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Jan-2025 12:55:19 UTC] PHP Warning:  Attempt to read property "title" on null in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-customize-widgets.php on line 923
+[29-Jan-2025 12:55:57 UTC] PHP Warning:  Attempt to read property "title" on null in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-customize-widgets.php on line 923
+[03-Feb-2025 09:25:24 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[03-Feb-2025 09:25:25 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[03-Feb-2025 09:25:25 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[03-Feb-2025 10:55:54 UTC] PHP Warning:  Attempt to read property "title" on null in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-customize-widgets.php on line 923
+[03-Feb-2025 11:05:20 UTC] PHP Warning:  Attempt to read property "title" on null in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-customize-widgets.php on line 923
+[03-Feb-2025 11:38:37 UTC] PHP Warning:  Attempt to read property "title" on null in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-customize-widgets.php on line 923
+[03-Feb-2025 11:39:24 UTC] PHP Warning:  Attempt to read property "title" on null in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-customize-widgets.php on line 923
+[03-Feb-2025 11:39:32 UTC] PHP Warning:  Attempt to read property "title" on null in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-customize-widgets.php on line 923
+[05-Feb-2025 11:51:07 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[05-Feb-2025 11:51:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[05-Feb-2025 11:51:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[05-Feb-2025 11:51:11 UTC] Automatic updates starting...
+[05-Feb-2025 11:51:12 UTC]   Automatic plugin updates starting...
+[05-Feb-2025 11:51:12 UTC]   Automatic plugin updates complete.
+[05-Feb-2025 11:51:12 UTC] Automatic updates complete.
+[05-Feb-2025 11:54:12 UTC] Automatic updates starting...
+[05-Feb-2025 11:54:12 UTC]   Automatic plugin updates starting...
+[05-Feb-2025 11:54:12 UTC]   Automatic plugin updates complete.
+[05-Feb-2025 11:54:12 UTC] Automatic updates complete.
+[05-Feb-2025 12:02:14 UTC] PHP Warning:  Attempt to read property "title" on null in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-customize-widgets.php on line 923
+[10-Feb-2025 09:43:23 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[10-Feb-2025 09:43:23 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[10-Feb-2025 09:43:23 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[10-Feb-2025 09:43:26 UTC] Cron reschedule event error for hook: wp_delete_temp_updater_backups, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"weekly","args":[],"interval":604800}
+[10-Feb-2025 09:45:52 UTC] PHP Warning:  Attempt to read property "title" on null in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wp-customize-widgets.php on line 923
+[10-Feb-2025 11:41:31 UTC] WordPress database error Server shutdown in progress for query UPDATE `wp_options` SET `option_value` = 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-6.7.1.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-6.7.1.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-6.7.1-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-6.7.1-new-bundled.zip\";s:7:\"partial\";s:0:\"\";s:8:\"rollback\";s:0:\"\";}s:7:\"current\";s:5:\"6.7.1\";s:7:\"version\";s:5:\"6.7.1\";s:11:\"php_version\";s:6:\"7.2.24\";s:13:\"mysql_version\";s:5:\"5.5.5\";s:11:\"new_bundled\";s:3:\"6.7\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1739187691;s:15:\"version_checked\";s:5:\"6.7.1\";s:12:\"translations\";a:0:{}}', `autoload` = 'off' WHERE `option_name` = '_site_transient_update_core' made by include('phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->run_command_and_exit, WP_CLI\Runner->run_command, WP_CLI\Dispatcher\Subcommand->invoke, call_user_func, WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}, call_user_func, Core_Command->check_update, Core_Command->get_updates, wp_version_check, set_site_transient, update_site_option, update_network_option, update_option
+[12-Feb-2025 11:49:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[12-Feb-2025 11:49:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[12-Feb-2025 11:49:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[12-Feb-2025 11:50:13 UTC] Automatic updates starting...
+[12-Feb-2025 11:50:13 UTC]   Automatic theme updates starting...
+[12-Feb-2025 11:50:13 UTC]   Automatic theme updates complete.
+[12-Feb-2025 11:50:13 UTC] Automatic updates complete.
+[12-Feb-2025 11:50:21 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[12-Feb-2025 11:53:58 UTC] Automatic updates starting...
+[12-Feb-2025 11:53:58 UTC]   Automatic theme updates starting...
+[12-Feb-2025 11:53:58 UTC]   Automatic theme updates complete.
+[12-Feb-2025 11:53:58 UTC] Automatic updates complete.
+[13-Feb-2025 09:56:50 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[13-Feb-2025 09:59:00 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[13-Feb-2025 10:10:10 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[17-Feb-2025 09:50:55 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[17-Feb-2025 09:51:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[17-Feb-2025 09:51:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[17-Feb-2025 09:51:30 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[17-Feb-2025 09:51:40 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[24-Feb-2025 10:02:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[24-Feb-2025 10:02:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[24-Feb-2025 10:02:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[24-Feb-2025 10:02:36 UTC] Automatic updates starting...
+[24-Feb-2025 10:02:37 UTC]   Automatic theme updates starting...
+[24-Feb-2025 10:02:37 UTC]   Automatic theme updates complete.
+[24-Feb-2025 10:02:37 UTC] Automatic updates complete.
+[27-Feb-2025 09:49:46 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[27-Feb-2025 09:49:47 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982
+[27-Feb-2025 09:49:47 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/diurno/Local Sites/prueba1/app/public/wp-includes/class-wpdb.php on line 1982

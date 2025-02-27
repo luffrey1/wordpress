@@ -1,0 +1,1 @@
+/home/diurno/Local Sites/prueba1/app/public/wp-content/plugins/query-monitor/wp-content/db.php

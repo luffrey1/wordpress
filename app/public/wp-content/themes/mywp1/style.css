@@ -1,0 +1,193 @@
+/*
+Theme Name: mywp1
+Theme URI: 
+Author: Daniel 
+Author URI: 
+Description: Mi 1er templare wp
+Version: 1.3
+Requires PHP: 8.2.23
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* Variables de color y fuente */
+:root {
+    --fuentePrincipal: 'Montserrat', sans-serif;
+    --fuenteTexto: 'Open Sans', sans-serif;
+    --fuenteSecundatia: 'Roboto', sans-serif;
+    /* Colores */
+    --grisOscuro: rgb(58, 56, 56);
+    --colorSecundario: rgb(161, 159, 159);
+    --blancoOpaco: rgb(243, 220, 220);
+    --blackBlack: black;
+}
+
+
+/* Estilo del encabezado */
+h1 {
+    font-family: var(--fuentePrincipal);
+    color: var(--colorPrimario);
+    text-align: center;
+}
+
+/* Estilo del menú */
+
+
+/* Estilo de los enlaces del menú */
+.menu-principal {
+    display: flex;
+}
+
+.menu-principal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox para los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten */
+    justify-content: space-between; /* Ajusta los elementos para ocupar el máximo espacio disponible */
+}
+
+.menu-principal li {
+    margin: 0 15px;
+    display: inline-flex; /* Asegura que los elementos estén alineados */
+}
+
+.menu-principal a {
+    text-decoration: none;
+    color: var(--blancoOpaco);
+    font-family: var(--fuenteTexto);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+/* Contenedor del Footer con Flexbox */
+.contenido-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ajustar contenido en pantallas pequeñas */
+     background-color: white;
+}
+
+/* Menú Principal en el Footer */
+.menu-principal {
+    display: flex;
+    gap: 20px; /* Espaciado entre los enlaces */
+    flex-wrap: wrap; /* Hace que se ajusten en dispositivos más pequeños */
+    justify-content: center;
+}
+
+.menu-principal a {
+    color: var(--blancoOpaco); /* Enlaces blancos */
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: transparent; /* Fondo transparente */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-principal a:hover {
+    background-color: var(--colorPrimario); /* Fondo verde al pasar el ratón */
+    color: var(--grisOscuro); /* Color de texto gris oscuro al pasar el ratón */
+}
+
+/* Copyright */
+.copyrigth {
+    font-size: 0.9rem;
+    color: var(--colorSecundario);
+    margin-top: 20px;
+    font-weight: 300; /* Peso ligero para los derechos de autor */
+}
+.footer-menu {
+    background-color: white;
+}
+/* Estilos Responsivos para dispositivos móviles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column; /* Apilar los elementos del menú */
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        margin-left: 0;
+    }
+
+    .menu-principal {
+        display: flex;
+        flex-direction: column; /* Asegura que los elementos se apilen en móviles */
+        align-items: center;
+    }
+
+    .contenido-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    .contenido-footer li {
+     
+        display: flex;
+        justify-content: center; /* Centra los elementos */
+        width: 100%;
+    }
+}
+
+
+.contenido-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.contenido-footer li {
+    margin: 0 15px;
+    color: black;
+    display: inline-flex; /* Asegura que los elementos estén alineados */
+}
+
+.contenido-footer a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--fuenteTexto);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+  
+}
+
+.site-footer {
+    background-color: white;
+    margin-top: 70vh;
+    
+}
+.footer {
+    background-color: white;
+    margin-top: 100px;
+}
+.footer-menu {
+    background-color: white;
+}
+.menu li:first-child {
+    border-bottom: 5px green;
+
+}
+.navbar-toggler {
+    margin-left: 0; /* Elimino el margen extra */
+}
+.footer-principal {
+    background-color: #fff; /* Fondo blanco */
+
+}
+
+
+

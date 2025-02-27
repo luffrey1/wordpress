@@ -1,0 +1,66 @@
+/*
+Theme Name: mywp2
+Theme URI: 
+Author: Daniel 
+Author URI: 
+Description: Mi 1er templare wp
+Version: 1.3
+Requires PHP: 8.2.23
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.menu1 {
+    display: inline-flex; 
+}
+.menu1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    
+}
+
+.menu1 li {
+    margin: 0 15px;
+    display: inline-flex; 
+}
+
+
+.menu1 a {
+    text-decoration: none;
+    color: inherit; 
+}
+.menu2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    
+}
+
+.menu2 li {
+  
+    display: inline-flex; 
+
+}
+.menu2 a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+
+
+
+
+
+
+
+ 
